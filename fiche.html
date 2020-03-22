@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/4b7db09c39.js" crossorigin="anonymous"></script>
+
+  <title>Codevores</title>
+</head>
+
+<body>
+  <!-- barre de navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor02">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Spécialités</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Equipes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Informations pratiques</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Trouvez un médecin">
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Chercher</button>
+        <button class="btn btn-secondary my-2 my-sm-0 account" type="submit">Mon compte</button>
+      </form>
+    </div>
+  </nav>
+  <!-- jumbo avec contenu -->
+  <div class="jumbotron">
+    <h1 class="display-3">Adalib</h1>
+    <p class="lead">Les cardiologues disponibles dans votre zone géographique</p>
+    <ul class="flex list">
+      <div class="col-md-4">
+        <img src="img/coeur.jpg" alt="">
+        <li><h2>Dr Coeur</h2></li>
+        <p>Chef du service de cardiologie de l'hôpital de la Pitié Salpétrière. Cardiologie du sport, cardio-pédiatrie, gestion du stress, méditation. </p>
+        <p>37 rue du Bouchon <br>75016 Paris </p>
+        <a href="#contact" class="btn btn-primary">Prendre RV avec ce spécialiste</a>
+      </div>
+      <div  class="col-md-4">
+        <img src="img/adtak.jpg" alt="">
+        <li><h2>Dr Adtak</h2></li>
+        <p>Cardiologie et maladies cardio-vasculaires - Université Paris XII-Créteil
+          Diplôme Inter-Universitaire d'imagerie vasculaire non invasive - Université Paris V René Descartes-Cochin </p>
+          <p>15 Rue de la Bretelle <br>75015 Paris </p>
+          <a href="#contact" class="btn btn-primary">Prendre RV avec ce spécialiste</a>
+
+        </div>
+        <div class="col-md-4">
+          <img src="img/batman.jpg" alt="">
+          <li><h2>Dr Batman</h2></li>
+          <p>Spécialiste en cardiologie, le docteur Louis Bendayan accueille sa patientèle au sein d'un cabinet médical pluridisciplinaire situé à deux pas de la place d'Italie. Bilan cardiologique complet et  examens plus spécifiques. </p>
+          <p>51 rue de l'Os <br>75013 Paris </p>
+          <a href="#contact" class="btn btn-primary">Prendre RV avec ce spécialiste</a>
+        </div>
+      </ul>
+
+    </div>
+    <!-- formulaire RV -->
+    <form id="contact" class="jumbotron">
+      <fieldset>
+        <legend>Remplissez le formulaire pour prendre RV</legend>
+
+        <div class="form-group">
+
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Insérez votre e-mail">
+          <small id="emailHelp" class="form-text text-muted"></small>
+          <input type="telephone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Insérez votre numéro de téléphone">
+          <small id="emailHelp" class="form-text text-muted">Vos informations de contact reseront confidentielles</small>
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="name" placeholder="Prénom et nom">
+
+        </div>
+        <div class="form-group">
+          <label for="exampleSelect1">Selectionnez une spécialité</label>
+          <select class="form-control" id="exampleSelect1">
+            <option>Cardiologie</option>
+            <option>Radiologie</option>
+            <option>Pédiatrie</option>
+            <option>Chirurgie générale</option>
+            <option>Chirurgie esthétique</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleTextarea">Précisez la raison de votre visite</label>
+          <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputFile">Ajoutez une ordonnance</label>
+          <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+          <small id="fileHelp" class="form-text text-muted">Envoyez nous l'ordonnance de votre médecin généraliste, ceci facilitera votre prise en charge.</small>
+        </div>
+        <fieldset class="form-group">
+          <legend>Souhaitez-vous être contacté de préférence:</legend>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+              par e-mail
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+              par téléphone
+            </label>
+          </div>
+
+        </fieldset>
+
+
+        <button type="submit" class="btn btn-primary">Envoyer ma demande</button>
+      </fieldset>
+    </form>
+    <footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
+      <div class="container">
+        <div class="row row-30">
+          <div class="col-md-4 col-xl-5">
+            <div class="pr-xl-4"><a class="brand" href="index.html"></a>
+              <p>N'hésitez pas à nous contacter pour toute question concernant notre service de réservation online.</p>
+              <!-- Rights-->
+              <p class="rights"><span>©</span><span class="copyright-year">2020</span>
+                <span>Tous droits réservés.</span></p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h5>Contacts</h5>
+              <dl class="contact-list">
+                <dt>Adresse :</dt>
+                <dd>18 rue de l'Hôpital, 75020 Paris</dd>
+              </dl>
+              <dl class="contact-list">
+                <dt>email:</dt>
+                <dd><a href="mailto:#">adalib@gmail.com</a></dd>
+              </dl>
+              <dl class="contact-list">
+                <dt>Téléphone :</dt>
+                <dd><a href="tel:#">01.20.30.40.50</a>
+                </dd>
+              </dl>
+            </div>
+
+            <div class="col-md-4 col-xl-3">
+              <h5>Links</h5>
+              <div class="social">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-instagram-square"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </footer>
+    </body>
+    </html>
+
+  </body>
+  </html>

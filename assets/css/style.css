@@ -1,0 +1,178 @@
+
+
+/* TOUTE LA PAGE */
+
+body{
+  font-family: 'Aldrich', sans-serif;
+    /* font-family: 'Courier Prime', monospace;
+
+    font-family: 'Mukta Malar', sans-serif;
+
+    font-family: 'Spinnaker', sans-serif;
+
+    font-family: 'Anonymous Pro', monospace; */
+    background-image: url(../img/banksy.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.95;
+    padding-top: 2em;
+}
+.flex{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+/* BARRE DE NAVIGATION ****************************************************************************** *********************************************************************************************************/
+.navbar{
+  background-color: #e6e643;
+  width: 100%;
+}
+.account{
+  margin: 0px 15px;
+  background-color: #6ccfe6;
+}
+/* *************************************** */
+
+ul li{
+  color: #e4eae4;
+  list-style: none;
+}
+.cross{
+  font-size: 1.5em;
+  background-color: inherit;
+  border: none;
+  color: blue;
+}
+.hamburger{
+  text-align: right;
+  font-size: 1.5em;
+  background-color: inherit;
+  border: none;
+  color: blue;
+}
+.navbar, .hamburger{
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar{
+    display: block;
+  }
+}
+/* comment faire disparaitre le menu latéral lorsque on agrandit après avoir reduit la taille?? */
+/* @media screen and (max-width: 1024px) {
+  .navbar{
+    display: none;
+  }
+} */
+@media screen and (max-width: 1024px) {
+  .hamburger{
+    display: block;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .connexion{
+    max-width: 10vw;
+    font-size: 0.8em;
+  }
+
+}
+/*TITRE  ************************************************************************************************ ************************************************************************************************/
+
+.title{
+  text-shadow: #FC0 1px 0 10px;;
+  color: blue !important;
+  margin-top: 2em;
+}
+@media screen and (max-width: 1024px) {
+  .title{
+    font-size: 2em;
+  }
+}
+
+/* INTERMEZZO ******************************************************* ******************************* **************************************************************************************************** */
+.intermezzo{
+  color: blue;
+}
+.grid{
+  display: grid;
+  list-style: none;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  padding-left: 8em;
+  padding-right: 8em;
+}
+/*CARDS***************** ****************************************************************************** ********************************************************************************** */
+.card-body{
+  background-color: #e9f74e;
+}
+.card-title{
+  color: #4890bb;
+}
+.card{
+  border: 1px solid #aa9528;
+}
+
+/* FOOTER************************************************************************************************ ******************************************************************************************************* */
+
+.footer {
+  background-color: #c6d1f2;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, 150px);
+  grid-gap: 10em;
+  max-height: 120vh;
+}
+li{
+  list-style: none;
+}
+h6{
+  color: blue;
+}
+.one {
+  grid-column: 1;
+  /* grid-row: 1; */
+}
+.two {
+  grid-column: 2;
+  /* grid-row: 1 / 3; */
+}
+.three {
+  grid-column: 3;
+  /* grid-row: 1; */
+}
+.four {
+  grid-column: 1 / 4;
+  grid-row: 2;
+}
+
+
+/* CONNEXION ********************************************************* *************************************************************************************************** */
+.jumbotron{
+  grid-column: 2 / 5;
+  background: linear-gradient(#71cbee,#e8ee30);
+}
+
+
+
+/* Bannière cookies*********************************************************************************
+.banner-cookies{
+  height: 80px;
+  width: 100%;
+  background-color: yellow;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+}
+.button-cookies{
+  height: 30px;
+  width:150px;
+  background-color: green;
+  border-color: green;
+} */
