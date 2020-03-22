@@ -10,12 +10,17 @@ Page de connexion recruteurs et dev
 Page Développeuses
 
 Page profil
-
+  adapter contenu
+  
 Page Communauté
 
 Page Actualités
 
 FAQ
   adapter contenu
+
+FOOTER
+    insérer contact
+
 Contact (3 poles)
     mails
