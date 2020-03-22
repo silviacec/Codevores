@@ -181,3 +181,18 @@ h6{
   background-color: green;
   border-color: green;
 } */
+
+/* développeuses ******************************************************* ********************************* */
+
+.devs{
+  display: flex;
+  flex-wrap:wrap;
+}
+.img-fluid {
+    max-width: 32vw;
+    height: auto;
+}
+/* .dev h6{
+  position: absolute;
+  z-index: 2;
+} */
