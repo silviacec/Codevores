@@ -16,6 +16,6 @@ Page Communauté
 Page Actualités
 
 FAQ
-
+  adapter contenu
 Contact (3 poles)
     mails
