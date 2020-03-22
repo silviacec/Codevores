@@ -10,3 +10,7 @@ document.querySelector('.hamburger').addEventListener('click', function() {
    document.querySelector('.hamburger').style.display='none';
 });
 document.querySelector('.aside').style.display='none';
+
+// $('.collapse').collapse()
+// geekzone
+// https://www.geekzone.fr/category/web/feed/json
