@@ -192,10 +192,14 @@ h6{
 .devs{
   display: flex;
   flex-wrap:wrap;
+  justify-content: center;
 }
-.img-fluid {
-    max-width: 32vw;
-    height: auto;
+/* .dev{
+wrapper de l'image...
+} */
+.dev img {
+    max-width: 7vw;
+    height: 8vw;
 }
 /* Fiche contact ************************************************************************************* */
 

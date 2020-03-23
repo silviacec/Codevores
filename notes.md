@@ -1,4 +1,10 @@
 TO DO
+
+Indentation html
+Indentation CSS avec ordre alphabetique et 3 tabs avant les :
+
+Footer à refaire
+
 Index
   <!-- Menu burger pour petits formats écrans JS -->
   <!-- adapter contenu -->
@@ -15,13 +21,14 @@ Page profil
 Page Communauté
 
 Page Actualités
+  API des de geekzone
 
 FAQ
   adapter contenu
 
 FOOTER
-    insérer contact
+  insérer contact
 
 Contact (3 poles)
     ajouter bouton créer compte et page nouvelle connexion
-    au clic sur adresse mail, mail chez moi
+    au clic sur adresse mail, mail à moi
