@@ -192,7 +192,7 @@ h6{
     max-width: 32vw;
     height: auto;
 }
-/* contact************************************************************************************* */
+/* Fiche contact ************************************************************************************* */
 
 .container-petit {
   max-width: 400px;
@@ -204,7 +204,6 @@ h6{
 #contact {
   background: #F9F9F9;
   padding: 25px;
-  margin: 150px 0;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
@@ -301,4 +300,7 @@ fieldset {
 
 :-ms-input-placeholder {
   color: #888;
+}
+.formulaires-container{
+  display: flex;
 }
