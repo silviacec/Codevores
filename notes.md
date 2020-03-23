@@ -1,7 +1,7 @@
 TO DO
 Index
   <!-- Menu burger pour petits formats écrans JS -->
-  adapter contenu
+  <!-- adapter contenu -->
   (Cookies)
 
 Page de connexion recruteurs et dev
@@ -11,7 +11,7 @@ Page Développeuses
 
 Page profil
   adapter contenu
-  
+
 Page Communauté
 
 Page Actualités
@@ -23,4 +23,5 @@ FOOTER
     insérer contact
 
 Contact (3 poles)
-    mails
+    ajouter bouton créer compte et page nouvelle connexion
+    au clic sur adresse mail, mail chez moi
