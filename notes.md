@@ -1,45 +1,47 @@
 TO DO
+=====
 
-Indentation html
-Indentation CSS avec ordre alphabetique et 3 tabs avant les :
+  - Indentation html
+  - Indentation CSS avec ordre alphabetique et 3 tabs avant les :
 
-Voir pourquoi title met des margin/padding énormes
+  <!-- - Voir pourquoi title met des margin/padding énormes -->
+  <!-- - Footer à refaire ::: le bon footer se trouve dans la page actualités -->
+  - Insérer des a href dans les mentions du footer et créer alertes JS
 
-Footer à refaire
+  - Partage sur les réseaux sociaux
 
-Partage sur les réseaux sociaux
+  - w3c et canIuse
 
-w3c et canIuse
+- Index
+  <!-- - <!-- Menu burger pour petits formats écrans JS --> -->
+  <!-- - <!-- adapter contenu --> -->
+  - (Cookies)
 
-Index
-  <!-- Menu burger pour petits formats écrans JS -->
-  <!-- adapter contenu -->
-  (Cookies)
+- Page de connexion recruteurs et dev
+  - adapter contenu
 
-Page de connexion recruteurs et dev
-  adapter contenu
+- Page professionnelles
+  - insérer contenu
 
-Page professionnelles
-  insérer contenu
-
-Page Communauté
+- Page Communauté
   <!-- ajouter photos -->
-  ajouter contenu
+  - ajouter contenu
 
-fiche profil
-  ajouter contenu
-  créer pop-up pour Contact
-  possibilité d'ajouter un pouce
+- fiche profil
+  - ajouter contenu
+  - créer pop-up pour Contact
+  - possibilité d'ajouter un pouce up
 
-Page Actualités
-  API des de geekzone
+- Page Actualités
+  - API des de geekzone
 
-FAQ
-  adapter contenu
+- FAQ
+  - adapter contenu
+  - problème ID
 
-FOOTER
-  insérer contact
+- FOOTER
+  - insérer contact
 
-Contact (3 poles)
-    ajouter bouton créer compte et page nouvelle connexion (dans menu?)
-    au clic sur adresse mail, mail à moi
+- Contact (3 poles)
+  - ajouter bouton créer compte et page nouvelle connexion (dans menu?)
+  - au clic sur adresse mail, mail à moi
