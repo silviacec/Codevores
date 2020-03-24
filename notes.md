@@ -3,7 +3,13 @@ TO DO
 Indentation html
 Indentation CSS avec ordre alphabetique et 3 tabs avant les :
 
+Voir pourquoi title met des margin/padding énormes
+
 Footer à refaire
+
+Partage sur les réseaux sociaux
+
+w3c et canIuse
 
 Index
   <!-- Menu burger pour petits formats écrans JS -->
@@ -13,12 +19,17 @@ Index
 Page de connexion recruteurs et dev
   adapter contenu
 
-Page Développeuses
-
-Page profil
-  adapter contenu
+Page professionnelles
+  insérer contenu
 
 Page Communauté
+  <!-- ajouter photos -->
+  ajouter contenu
+
+fiche profil
+  ajouter contenu
+  créer pop-up pour Contact
+  possibilité d'ajouter un pouce
 
 Page Actualités
   API des de geekzone
@@ -30,5 +41,5 @@ FOOTER
   insérer contact
 
 Contact (3 poles)
-    ajouter bouton créer compte et page nouvelle connexion
+    ajouter bouton créer compte et page nouvelle connexion (dans menu?)
     au clic sur adresse mail, mail à moi
