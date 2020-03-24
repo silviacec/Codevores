@@ -329,3 +329,14 @@ fieldset {
   font-size: 2em;
   transform: translate(-50%, -50%);
 }
+/* FAQ */
+.title-faq{
+  text-shadow: #FC0 1px 0 10px;;
+  color: blue !important;
+  margin-left: 6em;
+}
+@media screen and (max-width: 1024px) {
+  .title-faq{
+    font-size: 2em;
+  }
+}
