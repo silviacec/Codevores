@@ -11,7 +11,7 @@ body{
     font-family: 'Spinnaker', sans-serif;
 
     font-family: 'Anonymous Pro', monospace; */
-    background-image: url(../img/banksy.jpg);
+    background-image: url(../img/lil_fiber.png);
 
     background-repeat:repeat;
     background-attachment:scroll;
@@ -39,6 +39,9 @@ body{
 ul li{
   color: #1061de;
   list-style: none;
+}
+ul{
+  padding-left: 0;
 }
 .cross{
   font-size: 1.5em;
@@ -85,7 +88,6 @@ ul li{
 .title{
   text-shadow: #FC0 1px 0 10px;;
   color: blue !important;
-  margin-top: 2em;
 }
 @media screen and (max-width: 1024px) {
   .title{
@@ -124,17 +126,22 @@ ul li{
 
 /* FOOTER************************************************************************************************ ******************************************************************************************************* */
 
-.footer {
-  background-color: #c6d1f2;
-  padding: 25px;
-  margin-top: 20px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: minmax(100px, 150px);
-  grid-column-gap: 10em;
-  grid-row-gap: 5em;
-}
 
+.footer {
+  /* background-color: #c6d1f2; */
+  /* background-color: #bebfc7; */
+  background-color: #094a5c;
+  display: flex;
+  position: static;
+  bottom: 5px;
+  width: 100%;
+  justify-content: space-around;
+  padding-top: 1em;
+}
+.copyright{
+  position: fixed;
+  bottom: 0;
+}
 li{
   margin-bottom: 0rem;
   list-style: none;
@@ -142,22 +149,8 @@ li{
 h6{
   color: blue;
 }
-.one {
-  grid-column: 1;
-  /* grid-row: 1; */
-}
-.two {
-  grid-column: 2;
-  /* grid-row: 1 / 3; */
-}
-.three {
-  grid-column: 3;
-  /* grid-row: 1; */
-}
-.four {
-  grid-column: 1 / 4;
-  /* grid-row: 2; */
-  text-align: center;
+.copyright{
+  color:#ccdbdc;
 }
 
 
