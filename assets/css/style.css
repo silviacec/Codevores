@@ -126,21 +126,34 @@ ul{
 
 /* FOOTER************************************************************************************************ ******************************************************************************************************* */
 
+html, body {
+	height: 100%;
+	margin: 0; padding: 0;
+}
+body {
+	display : table;
+	width: 100%;
+}
 
+/* ex footer à effacer après avoir vérifié que celui dessus fonctionne */
 .footer {
-  /* background-color: #c6d1f2; */
-  /* background-color: #bebfc7; */
   background-color: #094a5c;
   display: flex;
-  position: static;
+  /* position: fixed; */
   bottom: 5px;
   width: 100%;
   justify-content: space-around;
   padding-top: 1em;
+  margin-top: 3em;
 }
 .copyright{
-  position: fixed;
+  position: static;
   bottom: 0;
+  background-color: #094a5c;
+  /* bottom: 5px; */
+  width: 100%;
+  /* padding-top: 1em; */
+  text-align: center;
 }
 li{
   margin-bottom: 0rem;
