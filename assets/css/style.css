@@ -114,11 +114,12 @@ ul{
   display: grid;
   list-style: none;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+  grid-gap: 10vw;
   grid-auto-rows: minmax(100px, auto);
   padding-left: 8em;
   padding-right: 8em;
 }
+
 /*CARDS***************** ****************************************************************************** ********************************************************************************** */
 .card-body{
   background-color: #e9f74e;
@@ -363,7 +364,7 @@ fieldset {
   max-height: 7vw;
   border-radius: 50px;
 }
-.geekzone {
+.geekzone{
     border: 1px solid #00dbff;
     background-color: #dadcd5;
     line-height: 2;
@@ -371,4 +372,25 @@ fieldset {
     padding: 0 2em;
     margin-top: 2em;
     overflow: hidden;
+}
+/* professionnelles ******************************* */
+.office{
+  max-width: 40%;
+}
+.pros{
+    border: 1px solid #00dbff;
+    background-color: #dadcd5;
+    line-height: 2;
+    border-radius: 6px;
+    padding: 0 2em;
+    margin-top: 2em;
+    margin-bottom: 10vh;
+    overflow: hidden;
+}
+h2{
+  line-height: 3.3;
+  color: #313177;
+}
+.pros li{
+  text-indent: 2vw;
 }
