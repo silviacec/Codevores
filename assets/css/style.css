@@ -19,12 +19,7 @@ body{
     /* opacity: 0.95; */
     padding-top: 2em;
 }
-.flex{
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding-bottom: 30px;
-}
+
 /* BARRE DE NAVIGATION ****************************************************************************** *********************************************************************************************************/
 .navbar{
   background-color: #e6e643;
@@ -33,6 +28,9 @@ body{
 .account{
   margin: 0px 15px;
   background-color: #6ccfe6;
+}
+.logo-codevores{
+  max-width: 15vw;
 }
 /* *************************************** */
 
@@ -94,11 +92,24 @@ ul{
     font-size: 2em;
   }
 }
-
-/* INTERMEZZO ******************************************************* ******************************* **************************************************************************************************** */
-.intermezzo{
+.title-box{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   color: blue;
 }
+.undertitle{
+  margin-bottom: 2em;
+}
+.une{
+    background-color: #9caaaa38;
+    border-radius: 10px;
+    margin-bottom: 8vh;
+    padding-top: 8vh;
+  }
+
+/* INTERMEZZO ******************************************************* ******************************* **************************************************************************************************** */
+
 .grid{
   display: grid;
   list-style: none;
@@ -324,7 +335,6 @@ fieldset {
 .didascalia {
   position: relative;
   /* text-align: center; */
-
 }
 
 .texte-dida {

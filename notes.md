@@ -16,6 +16,7 @@ TO DO
   <!-- - <!-- Menu burger pour petits formats écrans JS --> -->
   <!-- - <!-- adapter contenu --> -->
   - (Cookies)
+  - Jumbo titre?
 
 - Page de connexion recruteurs et dev
   - adapter contenu
@@ -32,12 +33,13 @@ TO DO
   - créer pop-up pour Contact
   - possibilité d'ajouter un pouce up
 
-- Page Actualités
+<!-- - Page Actualités
   - API des de geekzone
+  - mise en page Actualités -->
 
 - FAQ
   - adapter contenu
-  - problème ID
+  - problème ID?
 
 - FOOTER
   - insérer contact
