@@ -49,6 +49,7 @@
         </div>
     </div>
   </nav>
+
   <br>
   <!-- barre de connexion réduite avec menu burger************************************* ********************************* -->
   <div class="menu-lateral">
@@ -79,8 +80,6 @@
           </li>
         </ul>
       </div>
-
-
       <div class="connexion">
         <a href="connex-rec.html"><button class="btn btn-secondary my-2 my-sm-0 account text-capitalize" type="submit">Connexion récruteur</button></a>
       </div>
@@ -93,13 +92,18 @@
     <button class="hamburger" type="button" name="button" title="Ouvrir le menu" ><i class="fa fa-bars" aria-hidden="true"></i></button>
   </div>
   <br>
+
+
   <!-- ***************************************************************************** -->
     <!-- CONNEXION RECRUTEURS -->
+    <div class="formulaires-container">
+
+
     <form class="container-petit jumbotron">
       <div class="form-group">
+        <h4>Connexion récruteur</h4>
         <label for="exampleInputEmail1">Adresse e-mail</label>
         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        <small id="emailHelp" class="form-text text-muted">Vous pouvez également insérer votre identifiant</small>
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">Mot de passe</label>
@@ -111,6 +115,28 @@
       </div>
       <button type="submit" class="btn btn-primary">Confirmer</button>
     </form>
+
+    <form class="container-petit jumbotron">
+      <div class="form-group">
+        <h4>Vous vous connectez pour la première fois&nbsp?</h4>
+        <label for="exampleInputName">Votre nom / Votre société</label>
+        <input type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp"><br>
+        <label for="exampleInputEmail1">Votre adresse e-mail</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"><br>
+        <label for="exampleInputPassword1">Créez un mot de passe...</label>
+      <input type="password" class="form-control" id="exampleInputPassword1"><br>
+        <label for="exampleInputPassword1">...et tapez-le une nouvelle fois</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Se souvenir de moi</label>
+      </div>
+        <small id="emailHelp" class="form-text text-muted">Vous allez recevoir un e-mail de confirmation</small>
+        <br>
+      <button type="submit" class="btn btn-primary">Confirmer</button>
+    </form>
+  </div>
   </div>
   <footer>
     <div class="footer">
@@ -152,6 +178,7 @@
   <script src="assets/js/codevores.js">
 
   </script>
-    <!-- ajouter le footer de l'index !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+
+  <!-- ajouter le footer de l'index !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 </body>
 </html>

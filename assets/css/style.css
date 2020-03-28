@@ -188,6 +188,7 @@ h6{
 .jumbotron{
   grid-column: 2 / 5;
   background: linear-gradient(#71cbee,#e8ee30);
+  padding: 2rem;
 }
 
 
@@ -225,13 +226,23 @@ wrapper de l'image...
     height: 8vw;
 }
 /* Fiche contact ************************************************************************************* */
-
-/* .container-petit {
-  max-width: 400px;
+.formulaires-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+.container-petit {
+  max-width: 30vw;
   width: 100%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   position: relative;
-} */
+}
+form h4{
+  color: #210eaa;
+}
+form label{
+  margin-bottom: 0rem;
+  color: blue;
+}
 
 #contact {
   background: #F9F9F9;
@@ -333,10 +344,7 @@ fieldset {
 :-ms-input-placeholder {
   color: #888;
 }
-.formulaires-container{
-  display: flex;
-  justify-content: space-evenly;
-}
+
 /* fiche pro****************************** ***************************** ***************************** ********************** */
 
 .didascalia {
