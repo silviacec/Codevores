@@ -387,7 +387,7 @@ fieldset {
 .title-faq{
   text-shadow: #FC0 1px 0 10px;;
   color: blue !important;
-  margin-left: 6em;
+  margin: 1.5em 0 1em 6em;
 }
 @media screen and (max-width: 1024px) {
   .title-faq{
@@ -424,7 +424,7 @@ fieldset {
     margin-bottom: 10vh;
     overflow: hidden;
 }
-h2{
+.titre-communaute{
   line-height: 3.3;
   color: #313177;
 }
