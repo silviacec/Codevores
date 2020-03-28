@@ -12,8 +12,9 @@ body{
 
     font-family: 'Anonymous Pro', monospace; */
     background-image: url(../img/lil_fiber.png);
-
-    background-repeat:repeat;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    /* background-repeat:repeat; */
     background-attachment:scroll;
     /* background-size: cover; */
     /* opacity: 0.95; */
@@ -83,9 +84,12 @@ ul{
 }
 /*TITRE  ************************************************************************************************ ************************************************************************************************/
 
-.title{
-  text-shadow: #FC0 1px 0 10px;;
-  color: blue !important;
+.title {
+    text-shadow: #FC0 7px 4px 15px;
+    color: blue !important;
+    font-size: 6em;
+    font-weight: 800;
+    margin-bottom: 0em;
 }
 @media screen and (max-width: 1024px) {
   .title{
@@ -99,7 +103,8 @@ ul{
   color: blue;
 }
 .undertitle{
-  margin-bottom: 2em;
+  margin-top: -1.5em;
+  margin-right: 1.5em;
 }
 .une{
     background-color: #9caaaa38;
@@ -110,14 +115,14 @@ ul{
 
 /* INTERMEZZO ******************************************************* ******************************* **************************************************************************************************** */
 
-.grid{
-  display: grid;
-  list-style: none;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10vw;
-  grid-auto-rows: minmax(100px, auto);
-  padding-left: 8em;
-  padding-right: 8em;
+.grid {
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4vw;
+    grid-auto-rows: minmax(100px, auto);
+    padding: 0 5em 0 5em;
+    text-align: justify;
 }
 
 /*CARDS***************** ****************************************************************************** ********************************************************************************** */

@@ -16,13 +16,13 @@ TO DO
   <!-- - <!-- Menu burger pour petits formats écrans JS --> -->
   <!-- - <!-- adapter contenu --> -->
   - (Cookies)
-  - Jumbo titre?
+  <!-- - Jumbo titre? -->
 
 - Page de connexion recruteurs et dev
   - adapter contenu
 
-- Page professionnelles
-  - insérer contenu
+<!-- - Page professionnelles
+  - insérer contenu -->
 
 - Page Communauté
   <!-- ajouter photos -->
@@ -41,8 +41,8 @@ TO DO
   - adapter contenu
   - problème ID?
 
-- FOOTER
-  - insérer contact
+<!-- - FOOTER
+  - insérer contact -->
 
 - Contact (3 poles)
   - ajouter bouton créer compte et page nouvelle connexion (dans menu?)
