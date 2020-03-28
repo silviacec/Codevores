@@ -226,12 +226,12 @@ wrapper de l'image...
 }
 /* Fiche contact ************************************************************************************* */
 
-.container-petit {
+/* .container-petit {
   max-width: 400px;
   width: 100%;
   margin: 0 auto;
   position: relative;
-}
+} */
 
 #contact {
   background: #F9F9F9;
@@ -335,6 +335,7 @@ fieldset {
 }
 .formulaires-container{
   display: flex;
+  justify-content: space-evenly;
 }
 /* fiche pro****************************** ***************************** ***************************** ********************** */
 
