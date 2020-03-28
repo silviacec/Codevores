@@ -6,7 +6,7 @@ TO DO
 
   <!-- - Voir pourquoi title met des margin/padding énormes -->
   <!-- - Footer à refaire ::: le bon footer se trouve dans la page actualités -->
-  - Insérer des a href dans les mentions du footer et créer alertes JS
+  <!-- - Insérer des a href dans les mentions du footer et créer alertes JS -->
 
   - Partage sur les réseaux sociaux
 
@@ -18,19 +18,18 @@ TO DO
   - (Cookies)
   <!-- - Jumbo titre? -->
 
-- Page de connexion recruteurs et dev
-  - adapter contenu
+<!-- - Page de connexion recruteurs et dev
+  - adapter contenu -->
 
 <!-- - Page professionnelles
   - insérer contenu -->
 
 - Page Communauté
   <!-- ajouter photos -->
-  - ajouter contenu
+  - ajouter slide...
 
 - fiche profil
-  - ajouter contenu
-  - créer pop-up pour Contact
+  <!-- - ajouter contenu -->
   - possibilité d'ajouter un pouce up
 
 <!-- - Page Actualités
@@ -41,9 +40,10 @@ TO DO
   - adapter contenu
   - problème ID?
 
-<!-- - FOOTER
-  - insérer contact -->
+- FOOTER
+  <!-- - insérer contact -->
+  copier sur toutes les page footer index
 
-- Contact (3 poles)
-  - ajouter bouton créer compte et page nouvelle connexion (dans menu?)
-  - au clic sur adresse mail, mail à moi
+<!-- - Contact (3 poles) -->
+  <!-- - ajouter bouton créer compte et page nouvelle connexion (dans menu?) -->
+  <!-- - au clic sur adresse mail, mail à moi -->

@@ -87,7 +87,7 @@ ul{
 .title {
     text-shadow: #FC0 7px 4px 15px;
     color: blue !important;
-    font-size: 6em;
+    font-size: 5em;
     font-weight: 800;
     margin-bottom: 0em;
 }
@@ -104,7 +104,7 @@ ul{
 }
 .undertitle{
   margin-top: -1.5em;
-  margin-right: 1.5em;
+  margin-left: 2.5em;
 }
 .une{
     background-color: #9caaaa38;
@@ -212,20 +212,37 @@ h6{
 } */
 
 /* comlunauté ******************************************************* ********************************* */
-
+.page-communaute{
+  height: 100%;
+}
 .devs{
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: nowrap;
   justify-content: center;
 }
-/* .dev{
-wrapper de l'image...
-} */
 .dev img {
     max-width: 7vw;
     height: 8vw;
 }
-/* Fiche contact ************************************************************************************* */
+
+/* *************************************** */
+.trombi{
+  width: 20vw !important;
+  height: auto !important;
+margin: 2vw 1vw;
+border: 0px;
+}
+.trombi-container{
+  display: flex;
+  max-height: 100%;
+  flex-wrap: wrap;
+}
+.trombi-img, .card-img-overlay{
+  border: 1px solid yellow;
+  width:20vw;
+  height:auto;
+}
+/* ************************************************************************************* */
 .formulaires-container{
   display: flex;
   justify-content: space-evenly;
@@ -360,6 +377,12 @@ fieldset {
   font-size: 2em;
   transform: translate(-50%, -50%);
 }
+.fa-github-square{
+  color: black;
+  font-size: 2em;
+}
+
+
 /* FAQ */
 .title-faq{
   text-shadow: #FC0 1px 0 10px;;
@@ -407,4 +430,7 @@ h2{
 }
 .pros li{
   text-indent: 2vw;
+}
+li h4{
+  text-align: left;
 }
