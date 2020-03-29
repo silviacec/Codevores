@@ -4,20 +4,8 @@
 
 body{
   font-family: 'Aldrich', sans-serif;
-    /* font-family: 'Courier Prime', monospace;
-
-    font-family: 'Mukta Malar', sans-serif;
-
-    font-family: 'Spinnaker', sans-serif;
-
-    font-family: 'Anonymous Pro', monospace; */
     background-image: url(../img/lil_fiber.png);
-    /* background-repeat: no-repeat;
-    background-size: cover; */
-    /* background-repeat:repeat; */
     background-attachment:scroll;
-    /* background-size: cover; */
-    /* opacity: 0.95; */
     padding-top: 2em;
 }
 
@@ -104,11 +92,13 @@ ul{
 
 .title {
     text-shadow: #FC0 7px 4px 15px;
-    color: #0399b1 !important;
+    color: #3697a6 !important;
     font-size: 5em;
     font-weight: 800;
-    margin-bottom: 0em;
+    margin-bottom: 0.5em;
+    font-family: 'Barriecito', cursive;
 }
+
 @media screen and (max-width: 1024px) {
   .title{
     font-size: 2em;
@@ -122,7 +112,8 @@ ul{
 }
 .undertitle{
   margin-top: -1.5em;
-  margin-left: 2.5em;
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
 }
 .une{
     background-color: #9caaaa38;
@@ -194,14 +185,15 @@ li{
   margin-bottom: 0rem;
   list-style: none;
 }
-footer ul li{
+footer ul li, .copyright{
   color:#60efe8;
 }
+
 h6{
-  color: blue;
+  color: #151578;
 }
-.copyright{
-  color:#ccdbdc;
+.social{
+  font-size:2em;
 }
 
 
@@ -210,6 +202,7 @@ h6{
   grid-column: 2 / 5;
   background: linear-gradient(#71cbee,#e8ee30);
   padding: 2rem;
+  box-shadow: 0.5em 8px 1.4em gray;
 }
 
 
@@ -236,6 +229,11 @@ h6{
 .page-communaute{
   height: 100%;
 }
+.title-equipe{
+  text-size: 2em;
+  color:#522787;
+  text-shadow: #FC0 1px 0 10px;
+}
 .devs{
   display: flex;
   flex-wrap: nowrap;
@@ -244,12 +242,28 @@ h6{
 .dev img {
     max-width: 7vw;
     height: 8vw;
+    /* opacity: 0.8; */
+    /* filter:sepia(50%); */
+}
+.darker{
+  filter:brightness(80%);
+}
+.clearer{
+  filter:brightness(120%);
+}
+.dev img:hover {
+    filter: opacity(50%);
 }
 .trombi{
   background-color: #fff0;
   border: none;
 }
-
+.trombi .card-title, .trombi .card-text{
+  color:white;
+}
+.trombi a:hover{
+  filter: opacity(50%);
+}
 /* *************************************** */
 
 
@@ -284,6 +298,9 @@ border: 0px;
 
 form h4{
   color: #210eaa;
+}
+form h3{
+  color: #56507b;
 }
 form label{
   margin-bottom: 0rem;
@@ -415,7 +432,7 @@ fieldset {
 /* FAQ */
 .title-faq{
   text-shadow: #FC0 1px 0 10px;;
-  color: blue !important;
+  color: #3079c6;
   margin: 1.5em 0 1em 6em;
 }
 @media screen and (max-width: 1024px) {
@@ -439,10 +456,21 @@ fieldset {
     margin-top: 2em;
     overflow: hidden;
 }
+.titre-actualités{
+  color: #146382;
+}
+.pancake {
+
+    border-radius: 5px;
+    margin: 1em;
+        margin-right: 1em;
+    margin-right: 9em;
+}
 /* professionnelles ******************************* */
 .office{
   max-width: 40%;
 }
+
 .pros{
     border: 1px solid #00dbff;
     background-color: #dadcd5;
@@ -450,8 +478,12 @@ fieldset {
     border-radius: 6px;
     padding: 0 2em;
     margin-top: 2em;
-    margin-bottom: 10vh;
+    margin-bottom: 20vh;
     overflow: hidden;
+}
+.pros h2{
+  color: #337d88;
+  margin: 1em 0;
 }
 .titre-communaute{
   line-height: 3.3;
@@ -459,6 +491,11 @@ fieldset {
 }
 .pros li{
   text-indent: 2vw;
+  font-size: 1em;
+}
+.pros li span{
+  color: green;
+  font-weight: bold;
 }
 li h4{
   text-align: left;

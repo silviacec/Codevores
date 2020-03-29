@@ -4,12 +4,12 @@ TO DO
   - Indentation html
   - Indentation CSS avec ordre alphabetique et 3 tabs avant les :
 - adapter responsive e media query
-- logo dans quelques pages
+
   <!-- - Voir pourquoi title met des margin/padding énormes -->
   <!-- - Footer à refaire ::: le bon footer se trouve dans la page actualités -->
   <!-- - Insérer des a href dans les mentions du footer et créer alertes JS -->
 
-  - Partage sur les réseaux sociaux
+  <!-- - Partage sur les réseaux sociaux -->
 
   - w3c et canIuse
 
@@ -27,7 +27,7 @@ TO DO
 
 - Page Communauté
   <!-- ajouter photos -->
-  - ajouter slide...
+  <!-- - ajouter slide... -->
 
 - fiche profil
   <!-- - ajouter contenu -->
