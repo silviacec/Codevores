@@ -1,6 +1,6 @@
 
 
-/* TOUTE LA PAGE */
+/* PAGE ***********************************************************************************************/
 
 body{
   font-family: 'Aldrich', sans-serif;
@@ -8,27 +8,17 @@ body{
     background-attachment:scroll;
     padding-top: 2em;
 }
-
-/* // Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... } */
-
-/* BARRE DE NAVIGATION ****************************************************************************** *********************************************************************************************************/
-.navbar{
-  background-color: #e6e643;
-  width: 100%;
+html, body {
+	height: 100%;
+	margin: 0; padding: 0;
 }
+body {
+	display: table;
+	width: 100%;
+}
+
+/* BARRE DE NAVIGATION *******************************************************************************/
+
 .account{
   margin: 0px 15px;
   background-color: #6ccfe6;
@@ -41,15 +31,21 @@ body{
     display: none;
   }
 }
-/* *************************************** */
+.navbar{
+  background-color: #e6e643;
+  widows: 100%;
+}
 
+/* Barre petits écrans ************************************************************************************ */
+
+p{
+  color: #4d6b98;
+}
 ul li{
   color: #4d6b98;
   list-style: none;
 }
-p{
-  color: #4d6b98;
-}
+
 ul{
   padding-left: 0;
 }
@@ -69,7 +65,6 @@ ul{
 .navbar, .hamburger{
   display: none;
 }
-
 @media screen and (min-width: 1024px) {
   .navbar{
     display: block;
@@ -91,9 +86,8 @@ ul{
     max-width: 10vw;
     font-size: 0.8em;
   }
-
 }
-/*TITRE  ************************************************************************************************ ************************************************************************************************/
+/*TITRE  ***************************************************************************************************/
 
 .title {
     text-shadow: #FC0 7px 4px 15px;
@@ -103,7 +97,6 @@ ul{
     margin-bottom: 0.5em;
     font-family: 'Barriecito', cursive;
 }
-
 @media screen and (max-width: 1024px) {
   .title{
     font-size: 2em;
@@ -132,7 +125,7 @@ ul{
     padding-top: 8vh;
   }
 
-/* INTERMEZZO ******************************************************* ******************************* **************************************************************************************************** */
+/* INTERMEZZO *********************************************************************************************** */
 
 .grid {
     display: grid;
@@ -148,7 +141,8 @@ ul{
     display: block;
   }
 }
-/*CARDS***************** ****************************************************************************** ********************************************************************************** */
+/*CARDS****************************************************************************************************** */
+
 .card-body{
   background-color: #e9f74e;
 }
@@ -163,18 +157,13 @@ ul{
 .bio{
   width:50vw;
 }
-
-/* FOOTER************************************************************************************************ ******************************************************************************************************* */
-
-html, body {
-	height: 100%;
-	margin: 0; padding: 0;
-}
-body {
-	display : table;
-	width: 100%;
+@media screen and (max-width: 768px) {
+  .bio{
+    width:80vw;
+  }
 }
 
+/* FOOTER************************************************************************************************ * */
 
 .footer {
   background-color: #094a5c;
@@ -196,9 +185,7 @@ body {
   position: static;
   bottom: 0;
   background-color: #094a5c;
-  /* bottom: 5px; */
   width: 100%;
-  /* padding-top: 1em; */
   text-align: center;
 }
 li{
@@ -208,7 +195,6 @@ li{
 footer ul li, .copyright{
   color:#60efe8;
 }
-
 h6{
   color: #151578;
 }
@@ -216,8 +202,8 @@ h6{
   font-size:2em;
 }
 
+/* CONNEXION ************************************************************************************** */
 
-/* CONNEXION ********************************************************* *************************************************************************************************** */
 .jumbotron{
   grid-column: 2 / 5;
   background: linear-gradient(#71cbee,#e8ee30);
@@ -225,27 +211,8 @@ h6{
   box-shadow: 0.5em 8px 1.4em gray;
 }
 
-
-
-/* Bannière cookies*********************************************************************************
-.banner-cookies{
-  height: 80px;
-  width: 100%;
-  background-color: yellow;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  position: fixed;
-  bottom: 0;
-}
-.button-cookies{
-  height: 30px;
-  width:150px;
-  background-color: green;
-  border-color: green;
-} */
-
 /* communauté ******************************************************* ********************************* */
+
 .page-communaute{
   height: 100%;
 }
@@ -264,12 +231,9 @@ h6{
     display:none;
   }
 }
-
 .dev img {
     max-width: 7vw;
     height: 8vw;
-    /* opacity: 0.8; */
-    /* filter:sepia(50%); */
 }
 .darker{
   filter:brightness(80%);
@@ -290,27 +254,9 @@ h6{
 .trombi a:hover{
   filter: opacity(50%);
 }
-/* *************************************** */
 
+/* Contact ************************************************************************************************* */
 
-
-/* .trombi{
-  width: 20vw !important;
-  height: auto !important;
-margin: 2vw 1vw;
-border: 0px;
-}
-.trombi-container{
-  display: flex;
-  max-height: 100%;
-  flex-wrap: wrap;
-}
-.trombi-img, .card-img-overlay{
-  border: 1px solid yellow;
-  width:20vw;
-  height:auto;
-} */
-/* Contact ******************* ************************************************************************************* */
 .formulaires-container{
   display: flex;
   justify-content: space-evenly;
@@ -320,10 +266,9 @@ border: 0px;
     display: block;
   }
 }
-.container-petit {
+.container-petit{
   max-width: 30vw;
   width: 100%;
-  /* margin: 0 auto; */
   position: relative;
 }
 @media screen and (max-width:992px){
@@ -341,27 +286,23 @@ form label{
   margin-bottom: 0rem;
   color: blue;
 }
-
 #contact {
   background: #F9F9F9;
   padding: 25px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
-
 #contact h3 {
   display: block;
   font-size: 30px;
   font-weight: 300;
   margin-bottom: 10px;
 }
-
 #contact h4 {
   margin: 5px 0 15px;
   display: block;
   font-size: 13px;
   font-weight: 400;
 }
-
 fieldset {
   border: medium none !important;
   margin: 0 0 10px;
@@ -369,7 +310,6 @@ fieldset {
   padding: 0;
   width: 100%;
 }
-
 #contact input[type="text"],
 #contact input[type="email"],
 #contact input[type="tel"],
@@ -381,7 +321,6 @@ fieldset {
   margin: 0 0 5px;
   padding: 10px;
 }
-
 #contact input[type="text"]:hover,
 #contact input[type="email"]:hover,
 #contact input[type="tel"]:hover,
@@ -392,13 +331,11 @@ fieldset {
   transition: border-color 0.3s ease-in-out;
   border: 1px solid #aaa;
 }
-
 #contact textarea {
   height: 100px;
   max-width: 100%;
   resize: none;
 }
-
 #contact button[type="submit"] {
   cursor: pointer;
   width: 100%;
@@ -409,47 +346,39 @@ fieldset {
   padding: 10px;
   font-size: 15px;
 }
-
-#contact button[type="submit"]:hover {
+#contact button[type="submit"]:hover{
   background: grey;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
 }
-
 #contact button[type="submit"]:active {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
 }
-
 #contact input:focus,
 #contact textarea:focus {
   outline: 0;
   border: 1px solid #aaa;
 }
-
 ::-webkit-input-placeholder {
   color: #888;
 }
-
 :-moz-placeholder {
   color: #888;
 }
-
 ::-moz-placeholder {
   color: #888;
 }
-
 :-ms-input-placeholder {
   color: #888;
 }
 
-/* fiche pro****************************** ***************************** ***************************** ********************** */
+/* fiche pro*********************************************************************** ********************** */
 
 .didascalia {
   position: relative;
   /* text-align: center; */
 }
-
 .texte-dida {
   position: absolute;
   top: 10%;
@@ -464,25 +393,25 @@ fieldset {
   }
 }
 .fa-github-square{
-  color: black;
+  color: blue;
   font-size: 2em;
 }
 
+/* FAQ **********************************************************************************************************/
 
-/* FAQ */
 .title-faq{
   text-shadow: #FC0 1px 0 10px;;
   color: #3079c6;
   margin: 1.5em 0 1em 6em;
 }
-
 @media screen and (max-width: 1024px) {
   .title-faq{
     font-size: 2em;
     margin:30px;
   }
 }
-/* Actualités//////////////////////////////// */
+
+/* Actualités******************************************************************************************** */
 
 .logo_geek{
   max-width: 15vw;
@@ -512,20 +441,21 @@ fieldset {
     display:none;
   }
 }
-/* professionnelles ******************************* */
+
+/* professionnelles *************************************************************************************** */
+
 .office{
   max-width: 40%;
 }
-
 .pros{
-    border: 1px solid #00dbff;
-    background-color: #dadcd5;
-    line-height: 2;
-    border-radius: 6px;
-    padding: 0 2em;
-    margin-top: 2em;
-    margin-bottom: 20vh;
-    overflow: hidden;
+  border: 1px solid #00dbff;
+  background-color: #dadcd5;
+  line-height: 2;
+  border-radius: 6px;
+  padding: 0 2em;
+  margin-top: 2em;
+  margin-bottom: 20vh;
+  overflow: hidden;
 }
 .pros h2{
   color: #337d88;
@@ -551,18 +481,3 @@ fieldset {
 li h4{
   text-align: left;
 }
-/* .carousel{
-  background-color: grey;
-  width: 700px;
-  height:500px;
-  margin-left: 20em;
-}
-.carousel-item{
-  background-color:pink;
-  max-width: 100%;
-  justify-content: center;
-}
-.carousel-item > img {
-  width:auto;
-  height:340px;
-} */

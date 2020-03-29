@@ -1,17 +1,17 @@
 TO DO
 =====
 
-  - Indentation html
+  <!-- - Indentation html
   - Indentation CSS avec ordre alphabetique et 3 tabs avant les :
-- adapter responsive e media query
-
+<!-- - adapter responsive e media query --> -->
+<!-- les alt des photos!!! -->
   <!-- - Voir pourquoi title met des margin/padding énormes -->
   <!-- - Footer à refaire ::: le bon footer se trouve dans la page actualités -->
   <!-- - Insérer des a href dans les mentions du footer et créer alertes JS -->
 
   <!-- - Partage sur les réseaux sociaux -->
-
-  - w3c et canIuse
+<!-- 
+  - w3c et canIuse -->
 
 - Index
   <!-- - <!-- Menu burger pour petits formats écrans JS --> -->
