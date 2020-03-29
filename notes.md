@@ -25,7 +25,7 @@ TO DO
 <!-- - Page professionnelles
   - insérer contenu -->
 
-- Page Communauté
+<!-- - Page Communauté
   <!-- ajouter photos -->
   <!-- - ajouter slide... -->
 
@@ -41,9 +41,9 @@ TO DO
   - adapter contenu
   - problème ID? -->
 Page contact : ajouter vous êtes .../...
-- FOOTER
+<!-- - FOOTER -->
   <!-- - insérer contact -->
-  copier sur toutes les page footer index
+  <!-- copier sur toutes les page footer index -->
 
 <!-- - Contact (3 poles) -->
   <!-- - ajouter bouton créer compte et page nouvelle connexion (dans menu?) -->
