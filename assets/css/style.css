@@ -21,6 +21,21 @@ body{
     padding-top: 2em;
 }
 
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+
 /* BARRE DE NAVIGATION ****************************************************************************** *********************************************************************************************************/
 .navbar{
   background-color: #e6e643;
@@ -36,8 +51,11 @@ body{
 /* *************************************** */
 
 ul li{
-  color: #1061de;
+  color: #4d6b98;
   list-style: none;
+}
+p{
+  color: #4d6b98;
 }
 ul{
   padding-left: 0;
@@ -86,7 +104,7 @@ ul{
 
 .title {
     text-shadow: #FC0 7px 4px 15px;
-    color: blue !important;
+    color: #0399b1 !important;
     font-size: 5em;
     font-weight: 800;
     margin-bottom: 0em;
@@ -100,7 +118,7 @@ ul{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  color: blue;
+  color: #146382;
 }
 .undertitle{
   margin-top: -1.5em;
@@ -176,6 +194,9 @@ li{
   margin-bottom: 0rem;
   list-style: none;
 }
+footer ul li{
+  color:#60efe8;
+}
 h6{
   color: blue;
 }
@@ -211,7 +232,7 @@ h6{
   border-color: green;
 } */
 
-/* comlunauté ******************************************************* ********************************* */
+/* communauté ******************************************************* ********************************* */
 .page-communaute{
   height: 100%;
 }
@@ -224,9 +245,16 @@ h6{
     max-width: 7vw;
     height: 8vw;
 }
+.trombi{
+  background-color: #fff0;
+  border: none;
+}
 
 /* *************************************** */
-.trombi{
+
+
+
+/* .trombi{
   width: 20vw !important;
   height: auto !important;
 margin: 2vw 1vw;
@@ -241,8 +269,8 @@ border: 0px;
   border: 1px solid yellow;
   width:20vw;
   height:auto;
-}
-/* ************************************************************************************* */
+} */
+/* Contact ******************* ************************************************************************************* */
 .formulaires-container{
   display: flex;
   justify-content: space-evenly;
@@ -253,6 +281,7 @@ border: 0px;
   /* margin: 0 auto; */
   position: relative;
 }
+
 form h4{
   color: #210eaa;
 }
@@ -434,3 +463,18 @@ fieldset {
 li h4{
   text-align: left;
 }
+/* .carousel{
+  background-color: grey;
+  width: 700px;
+  height:500px;
+  margin-left: 20em;
+}
+.carousel-item{
+  background-color:pink;
+  max-width: 100%;
+  justify-content: center;
+}
+.carousel-item > img {
+  width:auto;
+  height:340px;
+} */

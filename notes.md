@@ -3,7 +3,8 @@ TO DO
 
   - Indentation html
   - Indentation CSS avec ordre alphabetique et 3 tabs avant les :
-
+- adapter responsive e media query
+- logo dans quelques pages
   <!-- - Voir pourquoi title met des margin/padding énormes -->
   <!-- - Footer à refaire ::: le bon footer se trouve dans la page actualités -->
   <!-- - Insérer des a href dans les mentions du footer et créer alertes JS -->
@@ -35,11 +36,11 @@ TO DO
 <!-- - Page Actualités
   - API des de geekzone
   - mise en page Actualités -->
-
+<!--
 - FAQ
   - adapter contenu
-  - problème ID?
-
+  - problème ID? -->
+Page contact : ajouter vous êtes .../...
 - FOOTER
   <!-- - insérer contact -->
   copier sur toutes les page footer index
