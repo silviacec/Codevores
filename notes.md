@@ -10,13 +10,13 @@ TO DO
   <!-- - Insérer des a href dans les mentions du footer et créer alertes JS -->
 
   <!-- - Partage sur les réseaux sociaux -->
-<!-- 
+<!--
   - w3c et canIuse -->
 
-- Index
+<!-- - Index -->
   <!-- - <!-- Menu burger pour petits formats écrans JS --> -->
   <!-- - <!-- adapter contenu --> -->
-  - (Cookies)
+  <!-- - (Cookies) -->
   <!-- - Jumbo titre? -->
 
 <!-- - Page de connexion recruteurs et dev
@@ -40,7 +40,7 @@ TO DO
 - FAQ
   - adapter contenu
   - problème ID? -->
-Page contact : ajouter vous êtes .../...
+
 <!-- - FOOTER -->
   <!-- - insérer contact -->
   <!-- copier sur toutes les page footer index -->
