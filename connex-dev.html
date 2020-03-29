@@ -2,62 +2,53 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-
-  <link href="https://fonts.googleapis.com/css?family=Aldrich|Anonymous+Pro|Courier+Prime|Mukta+Malar|Spinnaker&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Aldrich|Barriecito&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/4b7db09c39.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Codevores.co</title>
 </head>
+
 <body>
-
-
-  <!-- BARRE DE NAVIGATION -->
-  <div class="page-connexion">
-
-    <!-- barre de navigation page entière -->
-    <nav class="navbar navbar-expand-lg sticky-top">
-
-      <div class="collapse navbar-collapse" >
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="professionnelles.html">Développeuses</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="communaute.html">Communauté</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="actualites.html">Actualités</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="faq.html">FAQ</a>
-          </li>
-        </ul>
-
-        <div>
-          <a href="connex-rec.html"><button class="btn btn-secondary my-2 my-sm-0 account text-capitalize" type="submit">Connexion récruteur</button></a>
-        </div>
-        <div>
-          <a href="connex-dev.html">
+  <!-- barre de navigation page entière ------------------------------------------------------------------->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="collapse navbar-collapse" >
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="professionnelles.html">Développeuses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="communaute.html">Communauté</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="actualites.html">Actualités</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="faq.html">FAQ</a>
+        </li>
+      </ul>
+      <div>
+        <a href="connex-rec.html"><button class="btn btn-secondary my-2 my-sm-0 account text-capitalize" type="submit">Connexion récruteur</button></a>
+      </div>
+      <div>
+        <a href="connex-dev.html">
           <button class="btn btn-secondary my-2 my-sm-0 account text-capitalize" type="submit">Connexion dev</button></a>
-        </div>
+      </div>
     </div>
   </nav>
-
   <br>
-  <!-- barre de connexion réduite avec menu burger************************************* ********************************* -->
+  <!-- barre de connexion réduite avec menu burger------------------------------------------------------------>
   <div class="menu-lateral">
-
     <div class="aside">
       <button class="cross" type="button" name="button" title="Fermer le menu"><i class="fa fa-times" aria-hidden="true"></i>
       </button>
-
       <div class="menu-vertical">
         <ul class="">
           <li class="">
@@ -83,9 +74,10 @@
       <div class="connexion">
         <a href="connex-rec.html"><button class="btn btn-secondary my-2 my-sm-0 account text-capitalize" type="submit">Connexion récruteur</button></a>
       </div>
-      <div class="connexion">
+      <div class="conne">
         <a href="connex-dev.html">
-        <button class="btn btn-secondary my-2 my-sm-0 account text-capitalize" type="submit">Connexion dev</button></a>
+          <button class="btn btn-secondary my-2 my-sm-0 account text-capitalize" type="submit">Connexion dev</button>
+        </a>
       </div>
     </div>
 
@@ -139,47 +131,53 @@
     </form>
   </div>
   </div>
+
+
+  <!-- footer-------------------------------------------------------------------------------------------------->
   <footer>
     <div class="footer">
       <div class="">
         <ul>
-          <li>Codevores</li>
-          <li>
-            <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-twitter-square"></i>
-            <i class="fab fa-instagram-square"></i>
-          </li>
+          <a href="index.html"><li><i class="fas fa-utensils"></i>Codevores</li></a>
           <li>40 rue du Code Secret, 75020 Paris</li>
-        <!-- <li>e-mail:</li> -->
-          <li><a href="mailto:#">codevores@gmail.com</a></li>
-        <!-- <li>téléphone :</li> -->
-          <li><a href="tel:#">01.20.30.40.50</a></li>
+          <li><a href="mailto:#"><i class="fas fa-at"></i> codevores@gmail.com</a></li>
+          <li><a href="tel:#"><i class="fas fa-phone-alt"></i> 01.20.30.40.50</a></li>
         </ul>
       </div>
 
       <div class="">
         <ul>
-          <li>Team</li>
-          <li>Jobs</li>
-          <li>Actualités dev</li>
-          <li>Aide</li>
-        </ul>
-      </div>
-      <div class="">
-        <ul>
-          <li>Developpeuses</li>
-          <li>Je crée mon profil</li>
-          <li>Récruteurs</li>
-        </ul>
-      </div>
+          <a href="communaute.html"> <li>Communauté de développeuses</li></a>
+          <a href="professionnelles.html"> <li>Jobs</li></a>
+          <a href="actualites.html">  <li>Actualités dev</li></a>
+          <a href="contact.html"> <li>Aide</li>
+          </ul></a>
+        </div>
+        <div>
+          <ul>
+            <a href="contact.html"> <li>Connexion récruteurs</li></a>
+            <a href="contact.html"> <li>Connexion développeuses</li></a>
+            <li class="social">
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook-square"></i></a>
+              <a href="https://twitter.com/explore" target="_blank">
+                <i class="fab fa-twitter-square"></i></a>
+              <a href="https://www.instagram.com/" target="_blank">
+                <i class="fab fa-instagram-square"></i></a>
+              <a href="https://fr.linkedin.com/" target="_blank">
+                <i class="fab fa-linkedin"></i></a>
+                <a href="https://git-scm.com/" target="_blank">
+                  <i class="fab fa-git-square"></i></a>
+              </li>
+            </ul>
+          </div>
 
-    </div>
-    <p class="copyright">Codevores ©2020 • Mentions légales • CGU/CGV • Création CekCek :-) </p>
-  </footer>
-  <script src="assets/js/codevores.js">
+        </div>
+        <p class="copyright">Codevores ©2020 • Mentions légales • CGU/CGV • Création CekCek :-) </p>
+      </footer>
 
-  </script>
+      <script src="assets/js/codevores.js">
+      </script>
 
-  <!-- ajouter le footer de l'index !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-</body>
-</html>
+    </body>
+  </html>
