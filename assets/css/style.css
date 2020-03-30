@@ -97,7 +97,7 @@ ul{
     margin-bottom: 0.5em;
     font-family: 'Barriecito', cursive;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 992px) {
   .title{
     font-size: 2em;
   }
@@ -485,7 +485,7 @@ li h4{
 .banner-cookies{
   height: auto;
   width: 100%;
-  background-color: #88c4c4;
+  background-color: #1ee3e3;
   display: flex;
   padding: 10px 15px 10px 15px;
   align-items: center;
@@ -495,7 +495,7 @@ li h4{
 }
 .button-cookies-yes{
   height: auto;
-  width:150px;
+  width:180px;
   background-color: #14ac14;
   border: none;
   border-radius: 5px;
@@ -504,7 +504,7 @@ li h4{
 }
 .button-cookies-no{
   height: auto;
-  width:150px;
+  width:180px;
   background-color: #de3333;
   border: none;
   border-radius: 5px;
@@ -512,14 +512,19 @@ li h4{
   margin:5px;
 }
 .cookies-text{
-  /* flex-grow: 1; */
   margin-left: 40px;
+  margin-bottom: 0;
 }
 section>p{
-  color:#3b506e;
+  color:#1f3e3e;
 }
 @media screen and (max-width: 500px){
   .banner-cookies{
     display: block;
+  }
+}
+@media screen and (max-width: 768px){
+  .cookies-text{
+    margin:0;
   }
 }
